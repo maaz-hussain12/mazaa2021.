@@ -1,0 +1,177 @@
+1 <span>paragraph m colour changing wagera</span>
+
+2 outline offset: border k sth agr outline lgani ho
+
+3 box-sizing: border-box; agr ek box ki width 500 hai or padding border dene py bh 500 he rahy tw ye new property hai css3 ki 
+
+4 border-top-left-radius: percent or px ;
+
+5 box shadow: 5px means x-axis 3px means y-axis 10 px means blur 3px means spread; i.e box-shadow: 5px 3px 10px 3px;
+
+6 clear: both; float left or right m jb koi issue ho tw use krtyn hain
+
+7 font-variant: small-caps; paragraph capitals krne k liye
+
+8 text-transform: uppercase; all letters capitals krne k liye
+
+9 text-indent: 50px; heading k agey se agr para shuru krna ho
+
+10 text-decoration: underline red solid; text k neechy agr line chahiye ho tw ya para k neechy 
+
+11 text-shadow: 2px 2px 5px red;
+
+12 white-space: pre; jitni bar enter kro utna space ayega
+
+13 column-count: 3; agr 3 ya jitney bh paragraph ko alg alg boxes m likhna ho 
+
+14 column-gap: 100px; agr gap ziada ki need ho
+
+15 column-rule-style: 2px  solid black; beech m agr line ki need ho 
+ 
+16 column-span: all; agr koi heading ho upper tw woh sb column k upper ayee
+
+17 google fonts link copy kr k head tag k andr paste krdena hai
+
+18 list-style iski jitni bh property use krni hai ul ya ol k andr he use krni hai li m use nh krni
+
+19 list-style-image:url(images/arrow.png) icons finer se ja k koi bh image download 
+
+20 background-position: 20% 10% , right center;
+
+21 background-attachment : fixed; scroll k sth sth chlti rehti hai ye ek jgh fix ho k
+
+22 background-size: cover; purey div ko cover krleti hai
+
+23 background : linear-gradient (to top red,yellow,green); multiple bg colors k liye
+
+24 display:inline; agr y axis m li ho or usey ek he line m x axis m likhna ho tw like nav wagera m  
+
+25 visibility: collapse; agr table m kisi bh tr ya td ko hide krna ho tw
+
+26 body m upper jo gap arha hota hai uske liye margin or padding zero hogi
+
+27 position absolute div m use hogi or agr 3 ya ziada boxes hain unko upper krna hai tw z-index: 1 ; use krengy
+
+28 Media Queries ! @media screen and (max-width:1200px) {
+		body{
+		          background: pink;
+		          font-size: 100px;
+		          }
+		}
+		@media screen and (max-width:1000px) {
+		body{
+		          background: pink;
+		         font-size: 100px;
+		          }
+		}
+		@media screen and (max-width:700px) {
+		body{
+		          background: pink;
+		          }
+		}
+		@media screen and (max-width:480px) {
+		body{
+		          background: pink;
+		          }
+		}
+
+29 <textarea></textarea> kch bh text agr likhna ho lkn css m resize:none ; ki property lazmi use krni hogi 
+
+30 crusor: wait; or bh bht saari properties hain 
+
+31 :root(
+	--main-color: red;
+	)
+    .wrapper{
+	background: var(--main-color);       agr ek he color bht saari jagah use hua va ho tw uske liye ek main root lekr is tarah se css m likhengy 
+	}
+	--head-font: arial;
+	--p-font: arial;
+	font-family: var(head-font) ; bilkl same upper jesa he hoga	
+
+32 filter: brightness(0%) or grayscale(0%); agr brightness wagera barhani ya kam krni ho or bh bht si properties hain likke blur, saturation etc...
+
+33 .box{
+	width: 150px;
+	transition-property: width , height , background;
+	transition-duration: 2s , 2s , 2s;
+	}
+    .box:hover{			(input search button wagera m bh deskty hain ye)
+	width: 200px;
+	height: 100px;
+	background: green;
+	}
+
+34  transform: rotater(30deg) ; 2D transform m rotate k liye...or bh bht properties hain like skew(30deg , 20deg) 
+
+35 .box{
+	transform: rotate(0deg);
+	transition: transform 1s;
+	}				(animation m agr kisi bh box ko hover py crusor janey py roate krna ho tw)
+    .box:hover{
+	transform : rotate(180deg);
+	}
+
+36 object-fit:cover; agr image ki height width set krni ho or image stretch horhi ho tw uske liye ye use krengy
+
+37 box-decoration-break: clone; agr span m br lagayn or border chahiye ho har line py tw 
+
+38  border: 30px solid black;
+      background: purple;
+      border-image-source: url(images/ok.png);             (border-image apni mrzi se lgny k liye)
+      border-image-slice: 21px;
+      border-image-repeat: round;
+
+39 caret-color: green; agr form wagera m jo ek type krne k arha hota hai uska color chnge k liye 
+
+40 .parents{
+	display:grid;
+	grid-template-columns: 450px 200px;     or    grid-template-columns: 1fr 1fr 1fr; (fr se width sb ki barabar hoajati hai)
+	grid-template-rowss: 150px 100px 100px;
+	grid--gap: (row)10px  (col)15;  	(jitni bh rowscolumn  houngi px ka gap ajayega)
+	
+	}
+
+41 main-wrapper{
+	display:flex; 	( jitney bh columns houn ek row m ajyngy )
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://preview.themeforest.net/item/mazaa-responsive-restaurant-or-eatery-react-template/full_screen_preview/34030184?_ga=2.219840281.1851155978.1633518550-1207948282.1633518409
+	
+
+
